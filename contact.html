@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book a Consultation | Linden &amp; Loom Interiors</title>
+    <meta name="description" content="Fictional portfolio studio concept for Linden &amp; Loom Interiors. Request an interior architecture or styling consultation for your residential or commercial project." />
+    <meta property="og:title" content="Book a Consultation | Linden &amp; Loom Interiors" />
+    <meta property="og:description" content="Fictional portfolio studio concept for Linden &amp; Loom Interiors. Consultation request form and studio contact." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Bootstrap 5.3 CSS (CDN) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+    <!-- Bootstrap Icons (CDN) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <!-- AOS CSS (CDN) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+
+    <!-- Primary Stylesheet (Relative path) -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script>
+      document.documentElement.classList.add('js');
+    </script>
+  </head>
+  <body class="page-has-hero-dark">
+    <!-- Navbar Container with Plain Fallback -->
+    <div id="navbar-container">
+      <nav class="fallback-navbar" aria-label="Fallback Navigation">
+        <div class="container d-flex justify-content-between align-items-center">
+          <a href="index.html" class="fw-bold text-dark text-decoration-none font-serif fs-4">Linden &amp; Loom</a>
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item me-3"><a href="index.html" class="text-dark text-decoration-none">Home</a></li>
+            <li class="list-inline-item me-3"><a href="about.html" class="text-dark text-decoration-none">About</a></li>
+            <li class="list-inline-item me-3"><a href="services.html" class="text-dark text-decoration-none">Services</a></li>
+            <li class="list-inline-item me-3"><a href="portfolio.html" class="text-dark text-decoration-none">Portfolio</a></li>
+            <li class="list-inline-item me-3"><a href="process.html" class="text-dark text-decoration-none">Process</a></li>
+            <li class="list-inline-item me-3"><a href="faq.html" class="text-dark text-decoration-none">FAQ</a></li>
+            <li class="list-inline-item"><a href="contact.html" class="text-dark text-decoration-none fw-bold">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <main id="main-content">
+      <!-- Sub-page Hero Banner -->
+      <header class="page-hero-banner">
+        <img
+          src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1400&q=80"
+          alt="Studio entrance and tranquil architecture"
+          class="page-hero-bg"
+          width="1400"
+          height="500"
+          onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'1400\' height=\'500\' viewBox=\'0 0 1400 500\'><rect width=\'100%\' height=\'100%\' fill=\'%23B79F8A\'/></svg>';"
+        />
+        <div class="page-hero-scrim"></div>
+        <div class="container page-hero-content" data-aos="fade-up">
+          <nav aria-label="Breadcrumb">
+            <div class="editorial-breadcrumb">
+              <a href="index.html">Home</a>
+              <span class="separator">/</span>
+              <span class="current">Contact</span>
+            </div>
+          </nav>
+          <span class="subheading-editorial light mb-2">Begin a Dialogue</span>
+          <h1 class="display-3 text-white mb-2">Book a Consultation</h1>
+          <p class="lead text-white-50 fs-6 mb-0" style="max-width: 560px;">
+            Initiate a thoughtful conversation about your property, architectural drawings, or spatial styling requirements.
+          </p>
+        </div>
+      </header>
+
+      <!-- Contact Form & Studio Details Section -->
+      <section class="py-5 bg-warm-white">
+        <div class="container py-lg-4">
+          <div class="row g-5">
+            <!-- Left Column: Consultation Request Form -->
+            <div class="col-lg-7" data-aos="fade-right">
+              <div class="p-4 p-md-5 bg-surface-card border border-secondary border-opacity-10 shadow-sm">
+                <span class="subheading-editorial mb-2">Inquiry Form</span>
+                <h2 class="display-6 mb-4">Consultation Request</h2>
+
+                <!-- Animated Success Notice (Revealed after valid submit) -->
+                <div id="formSuccessBanner" class="form-success-banner" role="alert">
+                  <div class="d-inline-flex align-items-center justify-content-center bg-white text-sage rounded-circle mb-3 shadow-sm" style="width: 50px; height: 50px;">
+                    <i class="bi bi-check-lg fs-3"></i>
+                  </div>
+                  <h3 class="h4 font-serif text-charcoal mb-2">Thank you for your inquiry.</h3>
+                  <p class="small text-charcoal-muted mb-0">
+                    Your consultation request has been received. Our studio will review your project details and follow up within two business days to schedule your preliminary discussion.
+                  </p>
+                  <p class="small text-muted mt-2 fst-italic mb-0">
+                    (Sample website demo: form submission validated successfully on client.)
+                  </p>
+                </div>
+
+                <!-- Form -->
+                <form id="consultationForm" class="editorial-form needs-validation" novalidate>
+                  <div class="row g-3">
+                    <!-- Full Name -->
+                    <div class="col-md-12">
+                      <label for="fullName" class="form-label">Full Name *</label>
+                      <input type="text" class="form-control" id="fullName" placeholder="e.g. Eleanor Vance" required />
+                      <div class="invalid-feedback">Please provide your name (minimum 2 characters).</div>
+                    </div>
+
+                    <!-- Email Address -->
+                    <div class="col-md-6">
+                      <label for="emailAddress" class="form-label">Email Address *</label>
+                      <input type="email" class="form-control" id="emailAddress" placeholder="e.g. name@example.com" required />
+                      <div class="invalid-feedback">Please enter a valid email address.</div>
+                    </div>
+
+                    <!-- Phone Number -->
+                    <div class="col-md-6">
+                      <label for="phoneNumber" class="form-label">Phone Number *</label>
+                      <input type="tel" class="form-control" id="phoneNumber" placeholder="e.g. 0000 000 0000" required />
+                      <div class="invalid-feedback">Please provide a contact telephone number.</div>
+                    </div>
+
+                    <!-- Service Dropdown (Preselected from URL ?service=) -->
+                    <div class="col-md-6">
+                      <label for="serviceSelect" class="form-label">Design Discipline *</label>
+                      <select class="form-select" id="serviceSelect" required>
+                        <option value="" selected disabled>Select a discipline...</option>
+                        <option value="residential">Residential Design</option>
+                        <option value="kitchen-bath">Kitchen &amp; Bath</option>
+                        <option value="space-planning">Space Planning</option>
+                        <option value="styling">Styling &amp; Furnishing</option>
+                        <option value="commercial">Commercial Interiors</option>
+                      </select>
+                      <div class="invalid-feedback">Please choose a primary design discipline.</div>
+                    </div>
+
+                    <!-- Project Type -->
+                    <div class="col-md-6">
+                      <label for="projectType" class="form-label">Property Type *</label>
+                      <select class="form-select" id="projectType" required>
+                        <option value="" selected disabled>Select property type...</option>
+                        <option value="residence">Private Residence / Townhouse</option>
+                        <option value="renovation">Heritage / Period Renovation</option>
+                        <option value="apartment">Apartment / Penthouse</option>
+                        <option value="newbuild">New Architectural Build</option>
+                        <option value="commercial">Boutique Commercial / Atelier</option>
+                      </select>
+                      <div class="invalid-feedback">Please select a property category.</div>
+                    </div>
+
+                    <!-- Budget Range -->
+                    <div class="col-md-12">
+                      <label for="budgetRange" class="form-label">Approximate Project Scope / Investment Band</label>
+                      <select class="form-select" id="budgetRange">
+                        <option value="undecided" selected>To be determined during consultation</option>
+                        <option value="focus">Focused Room Scope (e.g. Kitchen, Master Suite, or Space Plan)</option>
+                        <option value="full">Comprehensive Full-Floor Scope (Joinery, MEP &amp; Finishes)</option>
+                        <option value="estate">Whole Property Architecture &amp; Turnkey Furnishing</option>
+                      </select>
+                    </div>
+
+                    <!-- Project Message -->
+                    <div class="col-md-12">
+                      <label for="projectMessage" class="form-label">Project Details &amp; Timeline *</label>
+                      <textarea
+                        class="form-control"
+                        id="projectMessage"
+                        rows="5"
+                        placeholder="Please share your property location, estimated timeline, and key architectural goals..."
+                        required
+                      ></textarea>
+                      <div class="invalid-feedback">Please share a brief note about your project (minimum 10 characters).</div>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="col-md-12 pt-2">
+                      <button type="submit" class="btn-editorial-primary w-100 py-3">
+                        <span>Submit Consultation Request</span>
+                        <i class="bi bi-arrow-right"></i>
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+            <!-- Right Column: Studio Contact & Styled Map Placeholder -->
+            <div class="col-lg-5" data-aos="fade-left">
+              <div class="p-4 p-md-5 bg-surface border border-secondary border-opacity-10 h-100 d-flex flex-column justify-content-between">
+                <div>
+                  <span class="subheading-editorial mb-2">Studio Details</span>
+                  <h3 class="display-6 mb-4">Linden &amp; Loom</h3>
+                  
+                  <div class="mb-4">
+                    <span class="d-block text-uppercase small text-taupe-dark fw-semibold mb-1" style="letter-spacing: 0.1em;">Studio Address</span>
+                    <p class="text-charcoal mb-0">
+                      123 Sample Street<br />
+                      Your City, Country
+                    </p>
+                  </div>
+
+                  <div class="mb-4">
+                    <span class="d-block text-uppercase small text-taupe-dark fw-semibold mb-1" style="letter-spacing: 0.1em;">Direct Correspondence</span>
+                    <p class="text-charcoal mb-1">
+                      <i class="bi bi-envelope text-taupe me-2"></i>hello@example.com
+                    </p>
+                    <p class="text-charcoal mb-0">
+                      <i class="bi bi-telephone text-taupe me-2"></i>0000 000 0000
+                    </p>
+                  </div>
+
+                  <div class="mb-4 p-3 bg-warm-white border border-secondary border-opacity-10">
+                    <span class="d-block text-uppercase small text-taupe-dark fw-semibold mb-1" style="letter-spacing: 0.1em;">Sample Studio Hours</span>
+                    <p class="small text-charcoal-muted mb-0">
+                      Monday &ndash; Friday: 9:00 AM &ndash; 5:30 PM<br />
+                      Saturday &ndash; Sunday: Closed<br />
+                      <span class="fst-italic text-taupe-dark">All design consultations arranged strictly by advance appointment.</span>
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Styled Architectural Map Placeholder Box -->
+                <div class="mt-4">
+                  <span class="d-block text-uppercase small text-taupe-dark fw-semibold mb-2" style="letter-spacing: 0.1em;">Studio Location Schematic</span>
+                  <div class="position-relative overflow-hidden border border-secondary border-opacity-25" style="height: 220px; background-color: #E6DFD5;">
+                    <!-- Stylized SVG Architectural Grid Map -->
+                    <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-label="Stylized map schematic of studio location">
+                      <defs>
+                        <pattern id="gridPattern" width="40" height="40" patternUnits="userSpaceOnUse">
+                          <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#D9D0C3" stroke-width="1"/>
+                        </pattern>
+                      </defs>
+                      <rect width="100%" height="100%" fill="#EAE4DC" />
+                      <rect width="100%" height="100%" fill="url(#gridPattern)" />
+                      <!-- Road geometries -->
+                      <path d="M -20 70 Q 150 90 400 50" stroke="#FFFFFF" stroke-width="14" fill="none" />
+                      <path d="M 180 -10 L 180 250" stroke="#FFFFFF" stroke-width="12" fill="none" />
+                      <path d="M 80 230 L 320 -20" stroke="#FFFFFF" stroke-width="10" fill="none" opacity="0.8" />
+                      <!-- River / green contour -->
+                      <path d="M 0 170 C 120 180, 240 140, 400 190" stroke="#D3DCce" stroke-width="20" fill="none" opacity="0.6" />
+                      <!-- Studio Location Pin -->
+                      <circle cx="180" cy="70" r="16" fill="#1F1F1F" />
+                      <circle cx="180" cy="70" r="6" fill="#F7F3EE" />
+                      <text x="180" y="110" fill="#1F1F1F" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" letter-spacing="1" text-anchor="middle">
+                        123 SAMPLE STREET
+                      </text>
+                    </svg>
+                    <div class="position-absolute bottom-0 end-0 bg-warm-white px-2 py-1 small text-muted font-monospace" style="font-size: 0.7rem;">
+                      SAMPLE MAP PREVIEW
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Container with Plain Fallback -->
+    <div id="footer-container">
+      <footer class="bg-dark text-white p-4">
+        <div class="container">
+          <p class="mb-1">&copy; 2026 Linden &amp; Loom Interiors. Sample website, concept demo.</p>
+          <p class="mb-0 text-white-50 small">123 Sample Street, Your City | hello@example.com | 0000 000 0000</p>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Scripts (Relative paths) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+{
+  "name": "Linden & Loom Interiors",
+  "description": "Fictional portfolio studio concept for Linden & Loom Interiors showcasing bespoke residential, kitchen and bath, space planning, styling, and commercial design.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

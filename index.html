@@ -1,0 +1,608 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Linden &amp; Loom Interiors | Fictional Studio Concept</title>
+    <meta name="description" content="Fictional portfolio studio concept for Linden &amp; Loom Interiors, an interior architecture and styling practice focused on warm minimalism and timeless spaces." />
+    <meta property="og:title" content="Linden &amp; Loom Interiors | Fictional Studio Concept" />
+    <meta property="og:description" content="Fictional portfolio studio concept for Linden &amp; Loom Interiors, showcasing residential, kitchen &amp; bath, and commercial spaces." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Bootstrap 5.3 CSS (CDN) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+    <!-- Bootstrap Icons (CDN) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <!-- AOS CSS (CDN) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+
+    <!-- Primary Stylesheet (Relative path) -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Inline script to add 'js' class to html element for robust AOS fallback -->
+    <script>
+      document.documentElement.classList.add('js');
+    </script>
+  </head>
+  <body class="page-has-hero-dark">
+    <!-- Navbar Container with Plain Semantic Fallback -->
+    <div id="navbar-container">
+      <nav class="fallback-navbar" aria-label="Fallback Navigation">
+        <div class="container d-flex justify-content-between align-items-center">
+          <a href="index.html" class="fw-bold text-dark text-decoration-none font-serif fs-4">Linden &amp; Loom</a>
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item me-3"><a href="index.html" class="text-dark text-decoration-none">Home</a></li>
+            <li class="list-inline-item me-3"><a href="about.html" class="text-dark text-decoration-none">About</a></li>
+            <li class="list-inline-item me-3"><a href="services.html" class="text-dark text-decoration-none">Services</a></li>
+            <li class="list-inline-item me-3"><a href="portfolio.html" class="text-dark text-decoration-none">Portfolio</a></li>
+            <li class="list-inline-item me-3"><a href="process.html" class="text-dark text-decoration-none">Process</a></li>
+            <li class="list-inline-item me-3"><a href="faq.html" class="text-dark text-decoration-none">FAQ</a></li>
+            <li class="list-inline-item"><a href="contact.html" class="text-dark text-decoration-none">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <main id="main-content">
+      <!-- Full-screen Hero Section -->
+      <header class="hero-full">
+        <div class="hero-bg-container">
+          <img
+            src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1400&q=80"
+            alt="Warm modern living room bathed in natural morning light"
+            class="hero-ken-burns"
+            width="1400"
+            height="900"
+            onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'1400\' height=\'900\' viewBox=\'0 0 1400 900\'><rect width=\'100%\' height=\'100%\' fill=\'%23B79F8A\'/><text x=\'50%\' y=\'50%\' fill=\'%23ffffff\' font-family=\'serif\' font-size=\'32\' text-anchor=\'middle\'>Linden &amp; Loom Interiors</text></svg>';"
+          />
+          <div class="hero-scrim"></div>
+        </div>
+
+        <div class="container hero-content">
+          <div class="row align-items-center">
+            <div class="col-lg-8 col-xl-7" data-aos="fade-up" data-aos-duration="1000">
+              <span class="subheading-editorial light mb-3">Interior Architecture &amp; Spatial Styling</span>
+              <h1 class="display-3 text-white fw-light mb-4 hero-line-reveal">
+                <span>Spaces shaped by quiet</span>
+                <span class="fst-italic text-taupe-light">harmony, natural light,</span>
+                <span>and tactile honesty.</span>
+              </h1>
+              <p class="lead text-white-50 mb-5 pe-lg-4 fs-6" style="max-width: 540px;">
+                We compose restrained, characterful environments for contemporary residences and boutique workspaces. A calm approach to enduring interior architecture.
+              </p>
+              <div class="d-flex flex-wrap gap-3">
+                <a href="contact.html" class="btn-editorial-primary">
+                  <span>Book a Consultation</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+                <a href="portfolio.html" class="btn-editorial-outline-light">
+                  <span>View Portfolio</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Floating Drift Cards -->
+        <div class="floating-drift-card floating-drift-card-1 d-none d-xl-block" data-aos="fade-left" data-aos-delay="400">
+          <img
+            src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=600&q=80"
+            alt="Hand-selected ceramics and minimal joinery detail"
+            width="260"
+            height="150"
+            onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'260\' height=\'150\' viewBox=\'0 0 260 150\'><rect width=\'100%\' height=\'100%\' fill=\'%23B79F8A\'/></svg>';"
+          />
+          <div class="pt-2">
+            <span class="d-block text-uppercase text-taupe-dark small fw-semibold" style="font-size: 0.65rem; letter-spacing: 0.15em;">Tactile Palette</span>
+            <span class="font-serif fs-6 text-charcoal">Raw linen, honed stone &amp; oak</span>
+          </div>
+        </div>
+
+        <div class="floating-drift-card floating-drift-card-2 d-none d-xxl-block" data-aos="fade-left" data-aos-delay="600">
+          <img
+            src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=600&q=80"
+            alt="Sculptural seating in a softly lit corner"
+            width="260"
+            height="150"
+            onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'260\' height=\'150\' viewBox=\'0 0 260 150\'><rect width=\'100%\' height=\'100%\' fill=\'%23B79F8A\'/></svg>';"
+          />
+          <div class="pt-2">
+            <span class="d-block text-uppercase text-taupe-dark small fw-semibold" style="font-size: 0.65rem; letter-spacing: 0.15em;">Spatial Balance</span>
+            <span class="font-serif fs-6 text-charcoal">Sculptural silhouettes</span>
+          </div>
+        </div>
+
+        <!-- Animated Scroll Indicator -->
+        <a href="#services-preview" class="scroll-indicator-wrap" aria-label="Scroll to services overview">
+          <div class="mouse-scroll" aria-hidden="true"></div>
+          <span>Scroll</span>
+        </a>
+      </header>
+
+      <!-- Services Preview Grid (5 Distinct Disciplines) -->
+      <section class="py-5 bg-warm-white" id="services-preview">
+        <div class="container py-lg-4">
+          <div class="row align-items-end mb-5">
+            <div class="col-lg-7" data-aos="fade-up">
+              <span class="subheading-editorial mb-2">Our Disciplines</span>
+              <h2 class="display-5 mb-0">Thoughtfully resolved interior services.</h2>
+            </div>
+            <div class="col-lg-5 text-lg-end mt-3 mt-lg-0" data-aos="fade-up" data-aos-delay="100">
+              <a href="services.html" class="link-arrow">
+                <span>Explore all services</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="row g-4">
+            <!-- 1. Residential Design -->
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="service-card">
+                <div class="service-card-img-wrap">
+                  <img
+                    src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=700&q=80"
+                    alt="Restful master bedroom with neutral layered textiles"
+                    loading="lazy"
+                    width="400"
+                    height="250"
+                    onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'250\' viewBox=\'0 0 400 250\'><rect width=\'100%\' height=\'100%\' fill=\'%23B79F8A\'/></svg>';"
+                  />
+                </div>
+                <div class="service-card-body">
+                  <div class="service-card-icon">
+                    <i class="bi bi-house-door"></i>
+                  </div>
+                  <h3 class="h4 mb-2">Residential Design</h3>
+                  <p class="text-charcoal-muted small mb-3">
+                    Full-scope home interiors tailored to everyday life, combining spatial balance with bespoke joinery and warmth.
+                  </p>
+                  <a href="residential-design.html" class="link-arrow">
+                    <span>Learn more</span>
+                    <i class="bi bi-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- 2. Kitchen & Bath -->
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="service-card">
+                <div class="service-card-img-wrap">
+                  <img
+                    src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=700&q=80"
+                    alt="Minimalist kitchen with natural stone island"
+                    loading="lazy"
+                    width="400"
+                    height="250"
+                    onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'250\' viewBox=\'0 0 400 250\'><rect width=\'100%\' height=\'100%\' fill=\'%23B79F8A\'/></svg>';"
+                  />
+                </div>
+                <div class="service-card-body">
+                  <div class="service-card-icon">
+                    <i class="bi bi-droplet"></i>
+                  </div>
+                  <h3 class="h4 mb-2">Kitchen &amp; Bath</h3>
+                  <p class="text-charcoal-muted small mb-3">
+                    Culinary workrooms and quiet wet-room sanctuaries specified with tactile limestone, fluted timber, and refined fixtures.
+                  </p>
+                  <a href="kitchen-and-bath.html" class="link-arrow">
+                    <span>Learn more</span>
+                    <i class="bi bi-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- 3. Space Planning -->
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="service-card">
+                <div class="service-card-img-wrap">
+                  <img
+                    src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=700&q=80"
+                    alt="Open-concept architectural floor plan with seamless circulation"
+                    loading="lazy"
+                    width="400"
+                    height="250"
+                    onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'250\' viewBox=\'0 0 400 250\'><rect width=\'100%\' height=\'100%\' fill=\'%23B79F8A\'/></svg>';"
+                  />
+                </div>
+                <div class="service-card-body">
+                  <div class="service-card-icon">
+                    <i class="bi bi-bounding-box-circles"></i>
+                  </div>
+                  <h3 class="h4 mb-2">Space Planning</h3>
+                  <p class="text-charcoal-muted small mb-3">
+                    Rigorous architectural layout optimization, sightline coordination, and daylight studies before construction commences.
+                  </p>
+                  <a href="space-planning.html" class="link-arrow">
+                    <span>Learn more</span>
+                    <i class="bi bi-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- 4. Styling & Furnishing -->
+            <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="150">
+              <div class="service-card">
+                <div class="service-card-img-wrap">
+                  <img
+                    src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=700&q=80"
+                    alt="Reading nook styled with textured textiles and artisanal ceramics"
+                    loading="lazy"
+                    width="600"
+                    height="250"
+                    onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'600\' height=\'250\' viewBox=\'0 0 600 250\'><rect width=\'100%\' height=\'100%\' fill=\'%23B79F8A\'/></svg>';"
+                  />
+                </div>
+                <div class="service-card-body">
+                  <div class="service-card-icon">
+                    <i class="bi bi-palette"></i>
+                  </div>
+                  <h3 class="h4 mb-2">Styling &amp; Furnishing</h3>
+                  <p class="text-charcoal-muted small mb-3">
+                    Curated loose furniture, bespoke rugs, vintage collector pieces, window dressings, and art placement for complete environments.
+                  </p>
+                  <a href="styling-and-furnishing.html" class="link-arrow">
+                    <span>Learn more</span>
+                    <i class="bi bi-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- 5. Commercial Interiors -->
+            <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-delay="250">
+              <div class="service-card">
+                <div class="service-card-img-wrap">
+                  <img
+                    src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=700&q=80"
+                    alt="Quiet boutique studio reception with organic wood paneling"
+                    loading="lazy"
+                    width="600"
+                    height="250"
+                    onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'600\' height=\'250\' viewBox=\'0 0 600 250\'><rect width=\'100%\' height=\'100%\' fill=\'%23B79F8A\'/></svg>';"
+                  />
+                </div>
+                <div class="service-card-body">
+                  <div class="service-card-icon">
+                    <i class="bi bi-buildings"></i>
+                  </div>
+                  <h3 class="h4 mb-2">Commercial Interiors</h3>
+                  <p class="text-charcoal-muted small mb-3">
+                    Bespoke hospitality suites, private executive studios, and creative ateliers planned for brand cohesion and acoustic comfort.
+                  </p>
+                  <a href="commercial-interiors.html" class="link-arrow">
+                    <span>Learn more</span>
+                    <i class="bi bi-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Asymmetric "Our Approach" Split Section -->
+      <section class="py-5 bg-ivory">
+        <div class="container py-lg-5">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-6" data-aos="fade-right">
+              <div class="asymmetric-image-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=900&q=80"
+                  alt="Sculptural dining table in soft daylight"
+                  class="asymmetric-image-main"
+                  loading="lazy"
+                  width="500"
+                  height="600"
+                  onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'500\' height=\'600\' viewBox=\'0 0 500 600\'><rect width=\'100%\' height=\'100%\' fill=\'%23B79F8A\'/></svg>';"
+                />
+                <img
+                  src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=500&q=80"
+                  alt="Minimal bathroom vanity detail"
+                  class="asymmetric-image-secondary"
+                  loading="lazy"
+                  width="280"
+                  height="340"
+                  onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'280\' height=\'340\' viewBox=\'0 0 280 340\'><rect width=\'100%\' height=\'100%\' fill=\'%23B79F8A\'/></svg>';"
+                />
+              </div>
+            </div>
+            <div class="col-lg-6 ps-lg-5" data-aos="fade-left">
+              <span class="subheading-editorial mb-3">Our Approach</span>
+              <h2 class="display-4 mb-4">Designing from the inside out.</h2>
+              <p class="text-charcoal-muted mb-4">
+                We believe interior spaces should evoke a sense of quiet arrival. Rather than following transient trends, our studio prioritizes proportion, the path of daylight, and the honesty of raw and finished surfaces.
+              </p>
+              <div class="row g-4 mb-4">
+                <div class="col-sm-6">
+                  <div class="border-start border-2 border-secondary ps-3">
+                    <span class="font-serif fs-5 d-block text-charcoal mb-1">Honest Materials</span>
+                    <span class="small text-charcoal-muted">Solid European timber, unlacquered metals, lime wash, and natural linens.</span>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="border-start border-2 border-secondary ps-3">
+                    <span class="font-serif fs-5 d-block text-charcoal mb-1">Human Scale</span>
+                    <span class="small text-charcoal-muted">Circulation paths and ergonomic seating arrangements calibrated for intimacy.</span>
+                  </div>
+                </div>
+              </div>
+              <a href="about.html" class="btn-editorial-secondary">
+                <span>Read Studio Philosophy</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Projects Strip (3 Images with Hover Overlay) -->
+      <section class="py-5 bg-warm-white">
+        <div class="container py-lg-4">
+          <div class="row align-items-end mb-4">
+            <div class="col-lg-7" data-aos="fade-up">
+              <span class="subheading-editorial mb-2">Selected Concepts</span>
+              <h2 class="display-5 mb-0">Featured portfolio highlights.</h2>
+            </div>
+            <div class="col-lg-5 text-lg-end mt-3 mt-lg-0" data-aos="fade-up" data-aos-delay="100">
+              <a href="portfolio.html" class="link-arrow">
+                <span>View all portfolio works</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="row g-4">
+            <!-- Project 1 -->
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+              <div
+                class="portfolio-card"
+                data-lightbox-src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80"
+                data-lightbox-title="Courtyard Residence (Sample project concept)"
+              >
+                <div class="portfolio-card-img-wrap">
+                  <img
+                    src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=700&q=80"
+                    alt="Courtyard Residence with glass indoor-outdoor threshold"
+                    loading="lazy"
+                    width="400"
+                    height="300"
+                    onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'100%\' height=\'100%\' fill=\'%23B79F8A\'/></svg>';"
+                  />
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-overlay-content">
+                      <span class="text-uppercase small text-taupe-light fw-semibold" style="letter-spacing: 0.15em;">Residential</span>
+                      <h4 class="text-white font-serif mb-1">Courtyard Residence</h4>
+                      <p class="text-white-50 small mb-0">Sample project (concept)</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+              <div
+                class="portfolio-card"
+                data-lightbox-src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80"
+                data-lightbox-title="Limestone Kitchen &amp; Pantry (Sample project concept)"
+              >
+                <div class="portfolio-card-img-wrap">
+                  <img
+                    src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=700&q=80"
+                    alt="Limestone Kitchen with oak joinery"
+                    loading="lazy"
+                    width="400"
+                    height="300"
+                    onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'100%\' height=\'100%\' fill=\'%23B79F8A\'/></svg>';"
+                  />
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-overlay-content">
+                      <span class="text-uppercase small text-taupe-light fw-semibold" style="letter-spacing: 0.15em;">Kitchen &amp; Bath</span>
+                      <h4 class="text-white font-serif mb-1">Limestone Kitchen</h4>
+                      <p class="text-white-50 small mb-0">Sample project (concept)</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+              <div
+                class="portfolio-card"
+                data-lightbox-src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1200&q=80"
+                data-lightbox-title="Clay &amp; Timber Creative Studio (Sample project concept)"
+              >
+                <div class="portfolio-card-img-wrap">
+                  <img
+                    src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=700&q=80"
+                    alt="Boutique creative workspace with warm wood tables"
+                    loading="lazy"
+                    width="400"
+                    height="300"
+                    onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'100%\' height=\'100%\' fill=\'%23B79F8A\'/></svg>';"
+                  />
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-overlay-content">
+                      <span class="text-uppercase small text-taupe-light fw-semibold" style="letter-spacing: 0.15em;">Commercial</span>
+                      <h4 class="text-white font-serif mb-1">Creative Atelier</h4>
+                      <p class="text-white-50 small mb-0">Sample project (concept)</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4-Step Process Timeline Preview -->
+      <section class="py-5 bg-surface">
+        <div class="container py-lg-4">
+          <div class="text-center max-w-700 mx-auto mb-5" data-aos="fade-up">
+            <span class="subheading-editorial mb-2">Our Method</span>
+            <h2 class="display-5 mb-3">A transparent, four-stage journey.</h2>
+            <p class="text-charcoal-muted small mx-auto" style="max-width: 580px;">
+              Every interior commission follows a disciplined progression from initial dialogue through spatial delivery.
+            </p>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="timeline-step">
+                <div class="step-number">01</div>
+                <h3 class="h5 mb-2">Consultation</h3>
+                <p class="small text-charcoal-muted mb-0">
+                  Site walkthrough, spatial brief definition, architectural constraints, and initial budget parameters.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="timeline-step">
+                <div class="step-number">02</div>
+                <h3 class="h5 mb-2">Concept</h3>
+                <p class="small text-charcoal-muted mb-0">
+                  Atmospheric moodboards, tactile sample trays, loose floorplan diagrams, and spatial flow studies.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="timeline-step">
+                <div class="step-number">03</div>
+                <h3 class="h5 mb-2">Development</h3>
+                <p class="small text-charcoal-muted mb-0">
+                  Detailed architectural joinery elevations, technical lighting schedules, and finishes specifications.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-delay="400">
+              <div class="timeline-step">
+                <div class="step-number">04</div>
+                <h3 class="h5 mb-2">Delivery</h3>
+                <p class="small text-charcoal-muted mb-0">
+                  Site coordination, furniture procurement, white-glove placement, and final ambient styling.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="text-center mt-5" data-aos="fade-up">
+            <a href="process.html" class="btn-editorial-secondary">
+              <span>Explore Detailed Process</span>
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Short FAQ Preview -->
+      <section class="py-5 bg-warm-white">
+        <div class="container py-lg-4">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="text-center mb-5" data-aos="fade-up">
+                <span class="subheading-editorial mb-2">Common Inquiries</span>
+                <h2 class="display-5 mb-3">Frequently asked questions.</h2>
+                <p class="text-charcoal-muted small">
+                  Clear answers regarding design phases, timelines, and collaboration.
+                </p>
+              </div>
+
+              <div class="accordion editorial-accordion" id="homeFaqAccordion" data-aos="fade-up">
+                <div class="accordion-item">
+                  <h3 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                      What is the typical timeframe for a full residential interior project?
+                    </button>
+                  </h3>
+                  <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#homeFaqAccordion">
+                    <div class="accordion-body">
+                      Timelines vary according to project scale and architectural scope. Concept and design documentation generally take between 6 and 10 weeks, while construction and procurement depend upon builder schedules and bespoke joinery lead times.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h3 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Do you collaborate with external architects and building contractors?
+                    </button>
+                  </h3>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#homeFaqAccordion">
+                    <div class="accordion-body">
+                      Yes. We regularly work alongside client-appointed structural engineers, architects, and main contractors, delivering comprehensive drawing packages and finish schedules for site coordination.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h3 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      How are design fees structured?
+                    </button>
+                  </h3>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#homeFaqAccordion">
+                    <div class="accordion-body">
+                      We operate on a phased fixed design fee determined during the initial consultation based on project scope, square footage, and level of documentation required.
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="text-center mt-4" data-aos="fade-up">
+                <a href="faq.html" class="link-arrow">
+                  <span>View all 8 questions in our FAQ archive</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Call to Action Band -->
+      <section class="py-5 bg-charcoal text-white text-center">
+        <div class="container py-lg-4" data-aos="fade-up">
+          <span class="subheading-editorial light mb-3">Begin a Conversation</span>
+          <h2 class="display-4 text-white mb-3">Ready to discuss your interior project?</h2>
+          <p class="text-white-50 mx-auto mb-4" style="max-width: 580px;">
+            Book an initial consultation to review your floor plans, design aspirations, and timeline in detail.
+          </p>
+          <a href="contact.html" class="btn-editorial-primary">
+            <span>Request a Consultation</span>
+            <i class="bi bi-arrow-right"></i>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Container with Plain Semantic Fallback -->
+    <div id="footer-container">
+      <footer class="bg-dark text-white p-4">
+        <div class="container">
+          <p class="mb-1">&copy; 2026 Linden &amp; Loom Interiors. Sample website, concept demo.</p>
+          <p class="mb-0 text-white-50 small">123 Sample Street, Your City | hello@example.com | 0000 000 0000</p>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Scripts in strict order: Bootstrap Bundle, AOS, components.js, main.js (All relative paths) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
